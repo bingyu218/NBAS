@@ -1,0 +1,261 @@
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+i,
+iframe,
+img,
+input,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+select,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+textarea,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+	margin: 0;
+	padding: 0;
+}
+
+b,
+em,
+h1,
+h2,
+h3,
+h4,
+h5,
+i,
+p {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+a {
+	text-decoration: none;
+	outline: none;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+.tc {
+	text-align: center;
+}
+
+.tl {
+	text-align: left;
+}
+
+.tr {
+	text-align: right;
+}
+
+.clearfix {
+	*zoom: 1;
+}
+
+.clearfix:after {
+	clear: both;
+	display: block;
+	height: 0;
+	visibility: hidden;
+	line-height: 0;
+	content: '\20';
+}
+@media print {
+	.noprint {
+		display: none;
+	}
+}
+
+*::-webkit-scrollbar {
+	width: 4px;
+	height: 4px;
+	background-color: #F5F5F5;
+}
+
+*::-webkit-scrollbar-thumb {
+	background-color: #ccc;
+}
+
+.ivu-table-body::-webkit-scrollbar {
+	width: 7px;
+	height: 7px;
+	background-color: #F5F5F5;
+}
+
+.ml-10 {
+	margin-left: 10px;
+}
+
+.mr-10 {
+	margin-right: 10px;
+}
+
+.mb-10 {
+	margin-bottom: 10px;
+}
+
+.mb-20 {
+	margin-bottom: 20px;
+}
+
+.mb-70 {
+	margin-bottom: 100px;
+}
+
+.layout-content-main {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	padding: 20px 15px;
+	min-height: 100%;
+	overflow-y: scroll;
+}
+
+.pagination {
+	position: relative;
+	float: right;
+	padding: 20px 0 10px;
+}
+
+.no-label {
+	.ivu-form-item-content {
+		margin-left: 20px !important;
+	}
+}
+
+.area {
+	.ivu-input {
+		font-size: 13px;
+	}
+}
+
+.layout-content-main {
+	.ivu-form-item-content p {
+		white-space: pre-line;
+		word-break: break-all;
+	}
+}
+
+.badge-alone {
+	top: -4px;
+	right: -18px;
+}
+
+.ivu-badge-dot {
+	right: -13px;
+}
+
+.ivu-menu-submenu-title {
+	i {
+		font-style: normal;
+	}
+}
+
+.ivu-tooltip-inner {
+	max-width: 276px;
+}
+.BMap_cpyCtrl,.anchorBL {
+  display: none;
+}
+.status {
+	.ivu-form-item {
+		margin-bottom: 0;
+	}
+}
+.ivu-layout-sider-trigger {
+  top: 44px;
+  position: absolute;
+}
+.deviceList {
+	.ivu-table-cell {
+		padding-right: 3px;
+		padding-left: 3px;
+	}
+}
+.form-title {
+	color: #333;
+	font-size: 15px;
+	padding: 0 0 16px;
+}
