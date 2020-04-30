@@ -21,7 +21,7 @@
     "element-ui": "^2.4.9",
     "font-awesome": "^4.7.0",
     "iview": "^3.0.3",
-    "jquery": "^3.3.1",
+    "jquery": "^3.5.0",
     "leancloud-storage": "^3.11.0",
     "lodash": "^4.17.4",
     "moment": "^2.22.2",
